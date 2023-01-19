@@ -1,0 +1,47 @@
+body {
+  background-color: silver;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  /* fond-famili - это шрифты */
+  font-family: "IBM Plex Serif", serif;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 900;
+}
+/* 1)font-family: 'Rubik Vinyl', cursive; - пикольный шрифт 
+2) font-family: 'Rubik Puddles', cursive;
+3) font-family: 'Rubik Microbe', cursive;
+4) font-family: 'Rampart One', cursive;
+ */
+p {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+.card-img-top {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p {
+  color: black;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Rampart One", cursive;
+  /* latter-specing - это отцтуп между буквами 
+  word-spacing - это отцтуп между словами*/
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  /* text-transform: uppercase; */
+}
+.row {
+  color: black;
+  padding: black;
+  border: 5px solid silver;
+  margin: 20px;
+}
